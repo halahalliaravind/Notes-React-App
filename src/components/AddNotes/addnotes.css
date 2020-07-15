@@ -1,0 +1,33 @@
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 4%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.search-bar {
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: #373837;
+  color: white;
+  box-shadow: 0 0px 10px grey, 0 0px 6px lightslategray;
+  border-radius: 10px;
+}
+
+.title-input,
+.details-input {
+  max-width: 400px;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  font-size: 25px;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #373837;
+  border-radius: 10px;
+}
