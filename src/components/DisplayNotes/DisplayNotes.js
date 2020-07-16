@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+import "./displaynotes.css";
 import Highlighter from "react-highlight-words";
+import { FaEdit } from "react-icons/fa";
+import { MdDelete } from "react-icons/md";
 
 export default class DisplayNotes extends Component {
   constructor(props) {
@@ -29,22 +32,10 @@ export default class DisplayNotes extends Component {
               </div>
               <div className="edit-delete-wrapper">
                 <span className="edit-button">
-                  <img
-                    src="https://img.icons8.com/cotton/64/000000/edit--v1.png"
-                    className="edit-button-img"
-                    onClick={(e) => this.props.editFunc(e)}
-                    id={id}
-                    alt="text"
-                  />
+                  <FaEdit onClick={(e) => this.props.editFunc(e)} id={id} />
                 </span>
                 <span className="delete-button">
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/delete-sign.png"
-                    className="delete-button-img"
-                    onClick={(e) => this.props.deleteFunc(e)}
-                    id={id}
-                    alt="text"
-                  />
+                  <MdDelete onClick={(e) => this.props.deleteFunc(e)} id={id} />
                 </span>
               </div>
             </div>
