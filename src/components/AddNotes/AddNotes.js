@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './addnotes.css';
+import "./addnotes.css";
 
 class AddNotes extends Component {
   constructor(props) {
@@ -38,8 +38,8 @@ class AddNotes extends Component {
               onChange={this.handleDataChange}
             />
             <br />
-            <button className="input-button" onClick={this.save}>
-              Add Note
+            <button class="btn btn-four blue" onClick={this.save}>
+              Save Note
             </button>
           </form>
         </div>
