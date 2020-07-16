@@ -30,4 +30,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-1. Notes App Created with React
+1. Notes App Created with React.
+2. You can see in live link with github pages,
+https://halahalliaravind.github.io/Notes-React-App/
