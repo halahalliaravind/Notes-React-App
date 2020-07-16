@@ -21,3 +21,13 @@ body {
   /* width: 100vw; */
   text-align: center;
 }
+footer {
+  margin: 12px 0px;
+  text-align: center;
+}
+footer span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+

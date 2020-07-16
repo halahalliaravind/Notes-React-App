@@ -8,6 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <AddNotes />
+        <footer>
+          {" "}
+          <span>React-Notes-App@newtonSchool</span>
+        </footer>
       </div>
     );
   }

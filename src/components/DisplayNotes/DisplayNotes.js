@@ -32,10 +32,10 @@ export default class DisplayNotes extends Component {
               </div>
               <div className="edit-delete-wrapper">
                 <span className="edit-button">
-                  <FaEdit onClick={(e) => this.props.editFunc(e)} id={id} />
+                  <FaEdit onClick={(e) => this.props.editFunc(e)} id={id} color='yellow' />
                 </span>
                 <span className="delete-button">
-                  <MdDelete onClick={(e) => this.props.deleteFunc(e)} id={id} />
+                  <MdDelete onClick={(e) => this.props.deleteFunc(e)} id={id} color='red' />
                 </span>
               </div>
             </div>
